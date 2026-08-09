@@ -18,3 +18,21 @@ def conv_endian(num, endian='big'):
             remainder = num % 16
             hex_string = hex_digits[remainder] + hex_string
             num = num // 16
+
+    if len(hex_string) % 2 != 0:
+        hex_string = "0" + hex_string
+
+    bytes_list = []
+
+    for i in range(0, len(hex_string), 2):
+        bytes_list.append(hex_string[i:i + 2])
+
+    if endian == 'little':
+        bytes_list.reverse()
+
+    result = " ".join(bytes_list)
+
+    if is_negative:
+        result = "-" + result
+
+    return result
