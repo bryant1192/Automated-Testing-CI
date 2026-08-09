@@ -1,0 +1,19 @@
+commit 63557531a034ba17d752289a76eca55f6af5c564
+Author: Derrick McClain <derrickmcclain@users.noreply.github.com>
+Date:   Sat Aug 8 22:44:08 2026 -0400
+
+    Implement conv_num, my_datetime, and finish conv_endian with CI tests.
+
+    Completes the Part 2 specs without forbidden builtins, adds a unittest suite covering the provided examples and edge cases, and wires GitHub Actions to lint and test on pull requests.
+
+commit fa8db0de481657c0bc2c71ec07dfa671b5beec12
+Author: Bryant <aragon1192@gmail.com>
+Date:   Sat Aug 8 21:00:11 2026 -0400
+
+    added manual hexadecimal conversion
+
+commit ee881907b8fea73316a29b1c00b634ac79971675
+Author: Bryant <aragon1192@gmail.com>
+Date:   Sat Aug 8 20:17:43 2026 -0400
+
+    initial commit
