@@ -211,4 +211,3 @@ def conv_endian(num, endian='big'):
     if is_negative:
         return '-' + result
     return result
-
